@@ -241,6 +241,12 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 .gs-section-01 h3 { 
      color: red }
 
+.gs-section-01 h2 { 
+     color: blue }
+
+.gs-section-01 h1 { 
+     color: purple }
+  
 .gs-section-01 p {
      font-size: 30px;
 }
