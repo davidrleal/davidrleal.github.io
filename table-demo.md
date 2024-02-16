@@ -1,31 +1,38 @@
 ---
-layout: base
+layout: liquid-table
+title: 'amiright?'
+reynolds:
+  strengths:
+  - good father
+  - funny
+  - dated alanis morissette
+  weaknesses: 
+  - singing
+  - green lantern movie
+  - tennis backhand 
+gosling:
+  strengths: 
+  - builds houses
+  - is a real boy
+  - never dated alanis morissette
+  weaknesses: 
+  - micky mouse club
+  - cries a lot
+  - not ryan reynolds
 ---
 
-{% include header.html type="page" %}
 
-<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">
-  <div class="row">
-    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
-      {% if page.before-content %}
-        <div class="before-content">
-          {% for file in page.before-content %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
 
-      {{ content }}
 
-      {% if page.after-content %}
-        <div class="after-content">
-          {% for file in page.after-content %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
+![]({{site.url}}/assets/img/ryan-v-ryan.jpg)  
 
-      {% include comments.html %}
-    </div>
-  </div>
-</div>
+
+## Lorem Ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<a href="https://github.com/DS4PS/barebones-jekyll/blob/master/_layouts/liquid-table.html" target = "_blank"> 
+
+</a>
+
+<hr>
